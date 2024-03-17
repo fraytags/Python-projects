@@ -393,25 +393,15 @@ original list sorted in ascending order. For example, if you pass
 4, 6, 7, 9, 0, 0]. If you pass [2, 1, 4, 7, 6] as your argument,
 your code should return [1, 2, 4, 6, 7]."""
 
-lis = [1, 4, 6, 0, 7, 0, 9]
-sorted = lis.sort()
 
-print(sorted)
-
-# def zeros_last(li: list) -> list:
-#     zeros = []
-#
-#     for i in range(len(li)):
-#         if li[i] == 0:
-#             del li[i]
-#             zeros.append(0)
-#
-#     print(li)
-#
-#
-# lis = [1, 4, 0, 6, 0, 7, 0, 9]
-#
-# zeros_last(lis)
+def zeros_last(lis : list) -> list:
+    for l in lis:
+        if l == 0:
+            lis.remove(l)
+            lis.append(0)
+        if not 0 in lis:
+            lis.sort()
+    return lis
 
 
 """Write a function called hide_password that takes no
