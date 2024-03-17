@@ -394,7 +394,7 @@ original list sorted in ascending order. For example, if you pass
 your code should return [1, 2, 4, 6, 7]."""
 
 
-def zeros_last(lis : list) -> list:
+def zeros_last(lis: list) -> list:
     for l in lis:
         if l == 0:
             lis.remove(l)
