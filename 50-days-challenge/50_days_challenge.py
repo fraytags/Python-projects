@@ -315,28 +315,8 @@ def dic_names(li: list) -> dict:
             else:
                 pass
 
-    names = ["Joseph","Nathan", "Sasha", "Kelly", "Muhammad", "Jabulani", "Sera”]
+    names = ["Joseph", "Nathan", "Sasha", "Kelly", "Muhammad", "Jabulani"]
 
-        #         print(f"{tab_s[i]}: {inc}")
-        #     else:
-        #         print(f"{t} et {tab_s[i]} ne sont pas égaux")
-        # # for j in range(len(tab_s)):
-
-
-t = [
-    "Joseph",
-    "Nathan",
-    "Sasha",
-    "Kelly",
-    "Muhammad",
-    "Jabulani",
-    "Sasha",
-    "Sasha",
-    "Sasha",
-    "Sarah",
-    "Sophie",
-    "Solene",
-]
 
 # dic_names(t)
 
@@ -413,6 +393,10 @@ original list sorted in ascending order. For example, if you pass
 4, 6, 7, 9, 0, 0]. If you pass [2, 1, 4, 7, 6] as your argument,
 your code should return [1, 2, 4, 6, 7]."""
 
+lis = [1, 4, 6, 0, 7, 0, 9]
+sorted = lis.sort()
+
+print(sorted)
 
 # def zeros_last(li: list) -> list:
 #     zeros = []
@@ -493,9 +477,6 @@ def swap_values(li: list) -> list:
     last = li[len(li) - 1]
 
     li.append()
-
-
-swap_values([2, 4, 67, 7])
 
 
 """Write a function called count_dots. This function takes a
