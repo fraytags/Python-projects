@@ -4,7 +4,7 @@ I'm a French cybersecurity student and [CCNA](https://www.credly.com/badges/9158
 
 ## My Badges
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="91583a35-6351-4a33-b904-b40d6503ca3e" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+![](pics/ccna-switching-routing-and-wireless-essentials.1.png)
 
 ---
 
